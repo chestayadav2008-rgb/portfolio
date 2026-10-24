@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chesta Yadav | Frontend Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',sans-serif;background:#0a0a0a;color:#fff}
+h1,h2,h3{font-family:'Space Grotesk',sans-serif}
+a{text-decoration:none;color:inherit}
+.container{max-width:1100px;margin:0 auto;padding:0 20px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:25px 0;position:sticky;top:0;background:#0a0a0aee;backdrop-filter:blur(10px);z-index:10}
+.logo{font-weight:700;font-size:20px}
+.nav-links{display:flex;gap:30px;font-size:14px;opacity:0.7}
+.hero{padding:80px 0 60px;display:grid;grid-template-columns:1.2fr 0.8fr;gap:40px;align-items:center}
+.badge{display:inline-block;background:#1a1a1a;border:1px solid #2a2a2a;padding:6px 14px;border-radius:100px;font-size:12px;margin-bottom:20px}
+.hero h1{font-size:60px;line-height:0.95;letter-spacing:-3px;margin-bottom:20px}
+.hero h1 span{color:#a3ff12}
+.hero p{opacity:0.6;line-height:1.6;max-width:440px;margin-bottom:30px}
+.btns{display:flex;gap:12px}
+.btn{padding:14px 26px;border-radius:100px;font-weight:600;font-size:14px}
+.btn-primary{background:#a3ff12;color:#000}
+.btn-secondary{background:#1a1a1a;border:1px solid #2a2a2a;color:#fff}
+.stats{display:flex;gap:40px;margin-top:40px;border-top:1px solid #1a1a1a;padding-top:30px}
+.card{background:#111;border:1px solid #1e1e1e;border-radius:24px;padding:28px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}
+.section{padding:60px 0}
+.section-title{font-size:40px;letter-spacing:-2px;margin-bottom:10px}
+.muted{opacity:0.5;font-size:14px}
+.tag{display:inline-block;background:#1e1e1e;border:1px solid #2a2a2a;padding:4px 10px;border-radius:100px;font-size:10px;margin:6px 6px 0 0}
+.skills{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.skill-pill{padding:10px 18px;background:#111;border:1px solid #1e1e1e;border-radius:100px;font-size:13px}
+footer{padding:60px 0;border-top:1px solid #1a1a1a;text-align:center;opacity:0.4;font-size:12px}
+@media(max-width:800px){.hero{grid-template-columns:1fr}.hero h1{font-size:40px}.grid-3{grid-template-columns:1fr}.nav-links{display:none}}
+</style>
+</head>
+<body>
+<div class="container">
+<nav>
+<div class="logo">CHESTA.YADAV</div>
+<div class="nav-links"><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a></div>
+</nav>
+
+<div class="hero">
+<div>
+<div class="badge">● AVAILABLE FOR COLLABORATION - Jhajjar, Haryana</div>
+<h1>Frontend Developer who builds <span>fast & clean</span> products.</h1>
+<p>Hi, I'm Chesta Yadav from Jhajjar, Haryana. Frontend Development 100% aati hai. Backend learning phase me hun, but fast learner hun. I love building AI tools.</p>
+<div class="btns">
+<a href="#projects" class="btn btn-primary">View Projects</a>
+<a href="https://github.com/chestayadav2008-rgb" class="btn btn-secondary">GitHub →</a>
+</div>
+<div class="stats">
+<div><h3>10+</h3><p class="muted">Projects</p></div>
+<div><h3>100%</h3><p class="muted">Frontend</p></div>
+<div><h3>LIVE</h3><p class="muted">Career Compass</p></div>
+</div>
+</div>
+<div class="card">
+<h3 style="opacity:0.5;font-size:12px;letter-spacing:2px;margin-bottom:20px">WHAT I DO</h3>
+<div style="font-size:18px;line-height:1.4;margin-bottom:24px">I convert ideas into real, live websites. From Figma to Code, pixel-perfect, 32.4KB optimized.</div>
+<div class="skills">
+<div class="skill-pill">HTML5</div><div class="skill-pill">CSS3</div><div class="skill-pill">JavaScript</div><div class="skill-pill">React (Learning)</div><div class="skill-pill">Tailwind</div><div class="skill-pill">GitHub Pages</div>
+</div>
+</div>
+</div>
+
+<div class="section" id="projects">
+<h2 class="section-title">Featured Projects</h2>
+<p class="muted">My recent work — prototype to live deployment.</p>
+<div class="grid-3">
+<div class="card">
+<div style="background:#a3ff12;color:#000;width:40px;height:40px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-weight:700">C</div>
+<h3 style="margin:14px 0 8px">Career Compass AI</h3>
+<p class="muted" style="line-height:1.5">AI-powered career guidance platform. 527 lines, 32.4KB, GitHub Actions Green Tick. LIVE.</p>
+<div><span class="tag">AI</span><span class="tag">Live</span><span class="tag">Competition</span></div>
+<p style="margin-top:14px"><a href="https://chestayadav2008-rgb.github.io/career-compass/" style="color:#a3ff12;font-size:13px">Live Demo →</a></p>
+</div>
+<div class="card">
+<div style="background:#1e1e1e;width:40px;height:40px;border-radius:12px;display:flex;align-items:center;justify-content:center">⚡</div>
+<h3 style="margin:14px 0 8px">Future Impact AI</h3>
+<p class="muted" style="line-height:1.5">Concept for PPT + Prototype — AI tool for future career impact analysis. In Progress.</p>
+<div><span class="tag">Idea</span><span class="tag">AI Tool</span></div>
+</div>
+<div class="card">
+<div style="background:#1e1e1e;width:40px;height:40px;border-radius:12px;display:flex;align-items:center;justify-content:center">＋</div>
+<h3 style="margin:14px 0 8px">Your Next Project?</h3>
+<p class="muted" style="line-height:1.5">Let's collaborate. I handle complete frontend, learning backend side-by-side.</p>
+<div><span class="tag">Open to Work</span></div>
+</div>
+</div>
+</div>
+
+<div class="section" id="skills">
+<h2 class="section-title">Skills</h2>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:20px">
+<div class="card"><h3>Frontend — Expert (100%)</h3><p class="muted" style="margin-top:10px">HTML, CSS, JavaScript, Responsive Design — Completely aati hai.</p></div>
+<div class="card"><h3>Backend — Learning Fast</h3><p class="muted" style="margin-top:10px">Node.js, APIs, Gemini Integration — Currently learning, can manage basic integration.</p></div>
+</div>
+</div>
+
+<div class="section" id="contact">
+<div class="card" style="text-align:center;padding:60px 28px;background:linear-gradient(180deg,#111,#0a0a0a)">
+<h2 class="section-title">Let's build something cool?</h2>
+<p class="muted" style="margin:20px auto;max-width:400px">If you have an idea, I have the frontend skills. Jhajjar se hun, remote collaboration open hai.</p>
+<div class="btns" style="justify-content:center;margin-top:20px">
+<a href="https://github.com/chestayadav2008-rgb" class="btn btn-primary">GitHub</a>
+<a href="https://chestayadav2008-rgb.github.io/career-compass/" class="btn btn-secondary">Career Compass Live</a>
+</div>
+</div>
+</div>
+
+<footer>© 2026 Chesta Yadav — Built in Jhajjar, Haryana | chestayadav2008-rgb</footer>
+</div>
+</body>
+</html>
